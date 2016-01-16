@@ -1,0 +1,19 @@
+{
+  "name": "notebook-test-data",
+  "version": "0.0.0",
+  "description": "Jupyter notebook test data. Add your own!",
+  "main": "index.js",
+  "scripts": {
+    "test": "node -e \"require('.').valid[0];console.log('TEST PASSED')\" || echo 'TEST FAILED'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nteract/notebook-test-data.git"
+  },
+  "author": "Kyle Kelley <rgbkrk@gmail.com>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/nteract/notebook-test-data/issues"
+  },
+  "homepage": "https://github.com/nteract/notebook-test-data#readme"
+}

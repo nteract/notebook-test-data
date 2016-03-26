@@ -1,6 +1,6 @@
 var path = require('path');
 
-function p(nb) { 
+function p(nb) {
   return path.join(__dirname, 'notebooks', nb)
 }
 
@@ -24,8 +24,6 @@ module.exports = {
     }
   },
   invalid: {
-    v4: {
-      p("invalid.ipynb"),
-    }
+    v4: p("invalid.ipynb"),
   },
 }

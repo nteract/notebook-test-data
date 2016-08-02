@@ -5,8 +5,8 @@ function p(nb) {
 }
 
 module.exports = {
-  valid: {
-    v4.0: {
+  'valid': {
+    'v4.0': {
       multiples: p("4.0/multiples.ipynb"),
       ansi: p("4.0/ANSITest.ipynb"),
       css: p("4.0/CSSReference.ipynb"),
@@ -16,7 +16,7 @@ module.exports = {
       v4notebook: p("4.0/test4.ipynb"),
       v4notebookplus: p("4.0/test4plus.ipynb")
     },
-    v4.1: {
+    'v4.1': {
       multiples: p("4.1/multiples.ipynb"),
       ansi: p("4.1/ANSITest.ipynb"),
       css: p("4.1/CSSReference.ipynb"),
@@ -25,14 +25,14 @@ module.exports = {
       outputCallbacks: p("4.1/TestOutputCallbacks.ipynb"),
       v4notebook: p("4.1/test4.ipynb"),
     },
-    v3: {
+    'v3': {
       v3notebook: p("test3.ipynb")
     },
-    v2: {
+    'v2': {
       v2notebook: p("test2.ipynb")
     }
   },
-  invalid: {
+  'invalid': {
     v4: p("4.0/invalid.ipynb"),
   },
 }

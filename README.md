@@ -1,5 +1,7 @@
 # notebook-test-data
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/nteract/notebook-test-data.svg)](https://greenkeeper.io/)
+
 Jupyter notebook test data. Feel free to add more!
 
 This is a collection of notebooks for testing with that you can `npm install` and rely on for testing.
